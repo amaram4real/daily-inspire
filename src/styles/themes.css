@@ -1,0 +1,108 @@
+.app-container {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.theme-light {
+  background: #f5f7fa;
+  color: #222;
+}
+
+.theme-dark {
+  background: #222;
+  color: #f5f7fa;
+}
+
+.theme-blue {
+  background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
+  color: #fff;
+}
+
+.theme-gradient {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  color: #222;
+}
+
+.quote-card {
+  background: rgba(255,255,255,0.75);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.quote-author {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.share-btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #ff9800;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.share-btn.twitter { background: #1da1f2; }
+.share-btn.facebook { background: #3b5998; }
+.share-btn.copy { background: #43a047; }
+
+.share-btn:hover { opacity: 0.8; }
+
+.ad-placeholder {
+  margin: 2rem 0;
+  width: 320px;
+  height: 100px;
+  background: #ececec;
+  border: 2px dashed #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 1rem;
+}
+
+.affiliate-section {
+  margin: 1rem 0;
+}
+
+.affiliate-btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background: #e53935;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(229,57,53,0.15);
+  transition: background 0.2s;
+}
+
+.affiliate-btn:hover {
+  background: #c62828;
+}
